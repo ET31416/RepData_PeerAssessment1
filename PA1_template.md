@@ -5,7 +5,7 @@ Reproducible Research: Peer Assessment 1
 
 
 ```r
-# Load data unzipped data from work directory
+# Load unzipped data from work directory
 activity <- read.csv("./activity.csv")
 
 # Transform 'date' char variable to POSIXlt
